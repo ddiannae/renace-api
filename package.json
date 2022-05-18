@@ -1,0 +1,33 @@
+{
+  "name": "renace-api",
+  "version": "1.0.0",
+  "description": "API para el proyecto de mapa de renace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddiannae/renace-api.git"
+  },
+  "keywords": [
+    "geolocation",
+    "api"
+  ],
+  "author": "Diana Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddiannae/renace-api/issues"
+  },
+  "homepage": "https://github.com/ddiannae/renace-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  }
+}
