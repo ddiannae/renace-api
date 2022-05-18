@@ -30,10 +30,6 @@ const GrupoSchema = new mongoose.Schema(
             type: String,
             required: true
         }, 
-        colonia: {
-            type: String,
-            required: true
-        }, 
         numero: {
             type: String,
             required: true
@@ -44,7 +40,15 @@ const GrupoSchema = new mongoose.Schema(
         emailContacto: {
             type: String,
             required: true
-        }
+        },
+        longitud: {
+            type: Number,
+            required: true
+        },
+        latitud: {
+            type: Number,
+            required: true
+        },
 
     }
 );
