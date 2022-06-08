@@ -2,6 +2,7 @@ const request = require("supertest");
 
 const app = require("../src/index");
 
+//Adding tests for DB connection
 describe("Calling /grupo with GET", () => {
     test("It should respond with a 200 status code", async () => {
         const response = await request(app).get("/grupo").send();
