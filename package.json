@@ -4,7 +4,8 @@
   "description": "API para el proyecto de mapa de renace",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "test": "jest --forceExit",
     "dev": "nodemon ./src/index.js"
   },
   "repository": {
@@ -28,6 +29,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongoose": "^6.3.3"
+    "jest": "^28.1.1",
+    "mongoose": "^6.3.3",
+    "supertest": "^6.2.3"
   }
 }
