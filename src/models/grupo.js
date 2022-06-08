@@ -49,8 +49,7 @@ const GrupoSchema = new mongoose.Schema(
             type: Number,
             required: true
         },
-
-    }
+    }, { timestamps: true }
 );
 
 
